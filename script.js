@@ -1,6 +1,6 @@
 // ⚠️ Code.gs를 '웹 앱'으로 배포한 뒤 나오는 URL을 여기에 붙여넣으세요.
 // (배포 > 새 배포 > 유형: 웹 앱 > 액세스 권한: 모든 사용자)
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxNAV7DcmU8hk-zdwkcyiRa4FGVCXDNaCbNVHhWFLZe9gn_E4IyD-XMEhMoCh1_0wg5/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwqzHRYIVMQg9UPXbxR_WA6wBZH-cpaLECNntXwN6eT8Mr0b0MtYvHFrp9RRGq2VgzI/exec';
 
 const form = document.getElementById('submit-form');
 const submitBtn = document.getElementById('submit-btn');
