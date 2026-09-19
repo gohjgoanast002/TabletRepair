@@ -121,22 +121,23 @@
 
         <div class="row">
           <div class="field">
-            <label for="tablet">태블릿 번호 (1~25)</label>
-            <input id="tablet" type="text" placeholder="예) 테블릿 구글ID 번호만">
+            <label for="tablet">구글 계정 번호 (1~25)</label>
+            <input id="tablet" type="text" placeholder="예) 01 또는 12_01 (1학년 2반 1번인 경우)">
           </div>
           <div class="field">
-            <label for="reset-wish">공장 초기화 희망여부</label>
+            <label for="reset-wish">공장 초기화 가능 여부</label>
             <select id="reset-wish" required>
               <option value="">선택</option>
               <option value="희망">희망</option>
-              <option value="비희망">비희망</option>
+              <option value="비희망">가능</option>
+              <option value="비희망">불가능 (데이터/앱 삭제되면 안됨 )</option>
             </select>
           </div>
         </div>
 
         <div class="field">
           <label for="detail">상세장애내용</label>
-          <textarea id="detail" rows="3" placeholder="상세 장애 내용을 입력하세요 (테블릿 특정 비밀번호가 있으면 꼭 기록해 주세요./ 앱 & 데이터 모두삭제 가능여부. )" required></textarea>
+          <textarea id="detail" rows="3" placeholder="상세 장애 내용을 입력하세요 (테블릿 특정 비밀번호가 있으면 꼭 기록해 주세요.)" required></textarea>
         </div>
 
         <button type="submit" id="submit-btn" class="btn btn-primary">
